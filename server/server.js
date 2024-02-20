@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.get('/api/message', (req, res) => {
-  res.json({ message: 'Hello from the server!' });
+app.get('/api/message', (req, res) => {
+  res.json({ message: 'Welcome to our application!' });
 });
-
 module.exports = { app, PORT };
